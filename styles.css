@@ -110,8 +110,32 @@ p {
 }
 
 .quote {
+    background-color: #E5E7EB;
+    min-height: 200px;
+}
+
+.quote .sentences  {
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    align-items: flex-end;
     
 }
+
+.quote .sentences .description {
+    padding-top: 50px;
+    font-size: 32px;
+    color: #1f2937;
+    padding-left: 120px;
+}
+
+.quote .sentences .signature {
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+
+
 .image {
     display:flex;
     min-width: 500px;
